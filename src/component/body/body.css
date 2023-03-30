@@ -1,5 +1,75 @@
+.bg{
+    background-image: url(../../img/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+}
 .body{
-    background-color: blue;
-    width: 600px;
-    height: 400px;
+    background-color: white;
+    width: 35rem;
+    margin: auto; 
+}
+
+.Ride-drive{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    padding: 5px;
+    
+}
+.body ul li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+#links{
+    text-decoration: none;
+    color: #4A945A;
+    /* padding-right: 5rem;
+    padding-left: 5rem; */
+    font-weight: bold;
+    font-size: 16px;
+}
+#links:active{
+    text-decoration: underline #4A945A;
+    background-color: antiquewhite;
+}
+h1{
+    color:#4A945A ;
+    
+    font-weight: 600;
+}
+.ride-form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+    gap: 30px;
+
+}
+#pickup{
+    width: 15rem;
+    padding: 10px;
+    background-color: #ECECEC;
+    border: none;
+    font-size: large;
+}
+#ride-btn{
+    width: 10rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4A945A;
+    color: white;
+}
+@media screen and (max-width: 740px){
+    .bg{
+        width: 100%;
+    }
+    .Ride-drive{
+        width: 100%;
+    }
+    
 }

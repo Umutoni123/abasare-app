@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import '../body/body.css'
+import { Link } from 'react-router-dom';
 
 export default function Body() {
   const [showLoginForm, setShowLoginForm] = useState(false);
@@ -17,21 +18,25 @@ export default function Body() {
   };
 
   return (
+    <div className='bg'>
     <div className='body' >
       <nav >
         <ul className='Ride-drive'>
-          <li><a href="#" onClick={handleLoginClick}>Ride</a></li>
-          <li><a href="#" onClick={handleSignupClick}>Drive or Deliver</a></li>
+          <li><Link  onClick={handleLoginClick} id="links">Ride</Link></li>
+          <li><Link onClick={handleSignupClick} id="links">Drive or Deliver</Link></li>
         </ul>
+        <hr />
       </nav>
+      
       {showLoginForm && (
-        <form>
-          <label htmlFor="username">Username:</label>
-          <input type="text" id="username" name="username" />
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" />
-          <button type="submit">Login</button>
+        <div className='ride-form'>
+          <div><h1>Request a ride</h1></div>
+          <form className='ride-form'>
+          <input type="text" id="pickup" name="username" placeholder='pickup' />
+          <input type="password" id="pickup" name="password" placeholder='Destination' />
+          <button type="submit" id='ride-btn'>Request a ride</button>
         </form>
+        </div>
       )}
       {showSignupForm && (
         <form>
@@ -44,6 +49,7 @@ export default function Body() {
           <button type="submit">Sign up</button>
         </form>
       )}
+    </div>
     </div>
   );
 }

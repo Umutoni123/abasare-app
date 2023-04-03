@@ -4,7 +4,7 @@ import "../body/body.css";
 import { Link } from "react-router-dom";
 import ride from '../../img/Vector.png'
 import deliver from '../../img/Group.png'
-
+import woman from '../../img/Woman Talking Taxi Driver.svg'
 export default function Body() {
   const [showLoginForm, setShowLoginForm] = useState(true);
   const [showSignupForm, setShowSignupForm] = useState(false);
@@ -20,21 +20,25 @@ export default function Body() {
   };
 
   return (
+    <div>
     <div className="bg">
       <div className="body">
         <nav className="Ride-drive">
           <ul >
-            <li><img src={ride} alt="" /></li>
+            
             <li>
-              <Link onClick={handleLoginClick} id="links">
+            
+              <Link onClick={handleLoginClick} id="links" to="ride">
+              <li><img src={ride} alt="" /></li>
                 Ride
               </Link>
             </li>
             </ul>
             <ul>
-            <li><img src={deliver} alt="" /></li>
+            
             <li>
               <Link onClick={handleSignupClick} id="links">
+              <li><img src={deliver} alt="" /></li>
                 Drive or Deliver
               </Link>
             </li>
@@ -80,6 +84,10 @@ export default function Body() {
           </div>
         )}
       </div>
+      <div>
+        <img src={woman} alt="" srcset="" />
+      </div>
+    </div>
     </div>
   );
 }

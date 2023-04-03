@@ -1,0 +1,55 @@
+.tb{
+    border-top: 2px solid grey;
+    padding-top: 3rem;
+  
+
+}
+  
+.header-cell{
+    
+    
+
+}
+.my-table {
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #4A945A;
+    margin: auto;
+    width: 1300px;
+  }
+  
+  thead tr {
+    border-bottom: 3px solid #4A945A;
+  }
+  
+  th {
+    padding: 2em;
+    text-align: right;
+    
+  }
+  
+  td {
+    padding: 1em;
+    text-align: left;
+    color: black;
+  }
+  #header1{
+    text-align: left;
+  }
+  #header2{
+    text-align: center;
+  }
+  #header3{
+    text-align: right;
+  }
+  tr{
+    padding: 1rem;
+  }
+
+  
+  
+  
+  
+    

@@ -1,75 +1,133 @@
-.bg{
-    background-image: url(../../img/BG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    
-    
-    
+.bg {
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  justify-content: space-between;
 }
-.body{
-    background-color: white;
-    width: 35rem;
-    margin: auto; 
+.body {
+  background: rgba(74, 148, 90, 0.1);
+  backdrop-filter: blur(45px);
+
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+  width: 829px;
+
+  top: 245px;
+  border-radius: 20px;
 }
 
-.Ride-drive{
-    display: flex;
-    justify-content: center;
-    gap: 10em;
-    padding: 5px;
-    
+.Ride-drive {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  padding: 5px;
 }
-.body ul li{
-    list-style: none;
-    text-decoration: none;
-    
+.body ul li {
+  list-style: none;
+  text-decoration: none;
 }
-#links{
-    text-decoration: none;
+#links {
+  /* text-decoration: none;
     color: #4A945A;
     /* padding-right: 5rem;
-    padding-left: 5rem; */
+    padding-left: 5rem; 
     font-weight: bold;
-    font-size: 16px;
-}
-#links:active{
-    text-decoration: underline #4A945A;
-    background-color: antiquewhite;
-}
-h1{
-    color:#4A945A ;
-    
-    font-weight: 600;
-}
-.ride-form{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
-    align-items: center;
-    gap: 30px;
+    font-size: 16px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-decoration: none
+  ;
+  /* identical to box height */
 
+  color: #000000;
 }
-#pickup{
-    width: 15rem;
+#links:active {
+  border-bottom: 2px solid #4a945a ;
+  position: fixed;
+  
+}
+h1 {
+  color: #4a945a;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45.4464px;
+  line-height: 55px;
+}
+.ride-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  align-items: center;
+  gap: 30px;
+}
+#pickup {
+  /* width: 15rem;
     padding: 10px;
     background-color: #ECECEC;
     border: none;
-    font-size: large;
+    font-size: large; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 7px;
+  gap: 10px;
+  border: none;
+
+  width: 583px;
+
+  background: #ececec;
 }
-#ride-btn{
-    width: 10rem;
+#ride-btn {
+  /* width: 10rem;
     padding: 10px;
     border-radius: 5px;
     background-color: #4A945A;
-    color: white;
+    color: white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11.3616px;
+  gap: 11.36px;
+  border: none;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+
+  width: 260px;
+  height: 50px;
+
+  /* greeen */
+
+  background: #4a945a;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
-@media screen and (max-width: 740px){
-    .bg{
-        width: 100%;
-    }
-    .Ride-drive{
-        width: 100%;
-    }
-    
+@media screen and (max-width: 740px) {
+  .bg {
+    width: 100%;
+  }
+  .Ride-drive {
+    width: 100%;
+  }
+}
+::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }

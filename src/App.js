@@ -4,19 +4,24 @@ import Loginform from './component/Login/Loginform';
 import Signup from './component/Signup/Signup';
 import { Routes,Route } from 'react-router-dom';
 import Body from './component/body/Body';
+import Speciality from './component/specialty/Speciality';
+import Team from './component/Team/Team';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Body/>
-      
-
       <Routes>
+        <Route path='ride'/>
         <Route path='/signup' element={<Signup />}/>
         <Route path='/login' element={<Loginform />}/>
 
       </Routes>
+      <Body/>
+      <Speciality/>
+      <Team/>
+      <Footer/>
     </div>
   );
 }

@@ -24,6 +24,7 @@ export default function Speciality() {
             <h1>Drivers</h1>
           <p>
           Abasare is aplatfoarm which links abasare with clients who can not find them easily.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti aut commodi dignissimos voluptates dolore nulla, officiis debitis provident rerum corporis et laboriosam nemo soluta illum, culpa aperiam aliquam asperiores alias.
           </p>
         </div>
         <div className="spec-img">

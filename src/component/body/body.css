@@ -3,14 +3,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
-    
-    
+    margin-top: px;
 }
 .body{
     background-color: white;
     width: 35rem;
-    margin: auto; 
+   margin: auto;
+   margin-top: 160px;
+   margin-left: 350px;
+   position: absolute;
 }
 
 .Ride-drive{
@@ -23,6 +24,7 @@
 .body ul li{
     list-style: none;
     text-decoration: none;
+   
     
 }
 #links{
@@ -44,10 +46,12 @@ h1{
 }
 .ride-form{
     display: flex;
+    
     flex-direction: column;
     padding-bottom: 10px;
     align-items: center;
     gap: 30px;
+    
 
 }
 #pickup{
@@ -65,9 +69,10 @@ h1{
     color: white;
 }
 @media screen and (max-width: 740px){
-    .bg{
+    /* .bg{
         width: 100%;
-    }
+        margin-bottom: 800px;
+    } */
     .Ride-drive{
         width: 100%;
     }

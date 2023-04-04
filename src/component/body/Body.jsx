@@ -32,8 +32,8 @@ export default function Body() {
             </li>
             </ul>
             <ul>
-            <li><img src={deliver} alt="" /></li>
-            <li>
+            <li><img className="align-midd itemsnter" src={deliver} alt="" /></li>
+                <li>
               <Link onClick={handleSignupClick} id="links">
                 Drive or Deliver
               </Link>
@@ -43,6 +43,7 @@ export default function Body() {
         <hr />
 
         {showLoginForm && (
+          
           <div className="ride-form">
             <div>
               <h1>Request a ride</h1>

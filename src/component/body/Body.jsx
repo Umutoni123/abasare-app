@@ -47,6 +47,7 @@ export default function Body() {
         <hr />
 
         {showLoginForm && (
+          
           <div className="ride-form">
             <div>
               <h1>Request a ride</h1>

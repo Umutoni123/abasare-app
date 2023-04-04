@@ -1,0 +1,12 @@
+.spec{
+display: grid;
+grid-template-columns: repeat(2,2fr);
+background: rgba(74, 148, 90, 0.1);
+margin-top: 5rem;
+}
+.spec-p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+}

@@ -1,0 +1,21 @@
+.testimony {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  margin-top: 5rem;
+ padding: 5rem;
+  justify-content: space-between;
+  gap: 5rem;
+}
+h5 {
+  text-align: right;
+}
+.test-p {
+  background-color: #edf4ef;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.7991px;
+  line-height: 33px;
+  border-radius: 18.1659px;
+}

@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 0.8rem;
     background-color: white;
+    border-bottom: 1px solid grey;
 
 }
 .log-links{
@@ -10,6 +11,7 @@
     padding-right: 5em;
   
     gap: 30px;
+    
    
     
 }

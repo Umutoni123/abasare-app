@@ -7,6 +7,12 @@
   justify-content: space-between;
   gap: 5rem;
 }
+img{
+  margin: auto;
+}
+h2{
+  text-align: center;
+}
 h5 {
   text-align: right;
 }

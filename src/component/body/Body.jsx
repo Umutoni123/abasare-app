@@ -8,6 +8,29 @@ import woman from '../../img/Woman Talking Taxi Driver.svg'
 export default function Body() {
   const [showLoginForm, setShowLoginForm] = useState(true);
   const [showSignupForm, setShowSignupForm] = useState(false);
+  const [location, setLocation] = useState("");
+
+  function handleClick() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+
+        // Use a reverse geocoding service to get the location name
+        fetch(`https://ipinfo.io/json?token=37dc1ce6f3b3e2`)
+          .then((response) => response.json())
+          .then((data) => {
+            setLocation(data.city);
+          })
+          .catch((error) => {
+            console.error(error);
+            setLocation("Error getting location");
+          });
+      });
+    } else {
+      setLocation("Geolocation is not supported by this browser.");
+    }
+  }
 
   const handleLoginClick = () => {
     setShowLoginForm(true);
@@ -58,16 +81,21 @@ export default function Body() {
                 id="pickup"
                 name="username"
                 placeholder="pickup"
+                onClick={handleClick}
               />
+              <p>{location}</p>
               <input
                 type="password"
                 id="pickup"
                 name="password"
                 placeholder="Destination"
               />
+              <Link to="signup">
               <button type="submit" id="ride-btn">
                 Request a ride
               </button>
+              </Link>
+             
             </form>
           </div>
         )}

@@ -9,7 +9,7 @@ import Digitals from './component/digitals';
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <Navigation/>
       {/* <Body/> */}
     <Routes>

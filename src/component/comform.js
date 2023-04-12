@@ -9,10 +9,10 @@
     <div className="relative flex flex-col justify-center  "> 
     
         
-        <form className="mt-6">
+        <form className="mt-4">
             
             <div className="mb-2" class="input">
-                <h1 className='  text-black text-2xl'> Comform your request by  entering <br/>your email</h1>
+                <h1 className='  text-black ml-[600px]   text-2xl'> Comform your request by  entering <br/>your email</h1>
                 
                 <input
                     type="email" placeholder='Email'
@@ -21,7 +21,7 @@
             </div> 
            
            <div className="mt-6">
-                <button  onClick={()=>Navigate('/digitals' )} className="w-[150px] rounded-xl px-4 py-2 tracking-wide pb-4 ml-[600px]  bg-white transition-colors duration-200 transform bg-g-700 rounded-md hover: bg-whi-600 focus:outline-none focus: bg-black-600">
+                <button  onClick={()=>Navigate('/digitals' )} className="w-[150px] ml-[940px]  rounded-xl px-2 py-4 tracking-wide pb-4  bg-black   transition-colors duration-200 transform   rounded-md hover: bg-black-400 text-white py-2 px-4 border-2  rounded-full focus:outline-none focus: bg-black-600">
                 <ion-icon name="arrow-forward-outline"></ion-icon> Next 
                 </button>
             </div>

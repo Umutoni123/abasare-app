@@ -33,9 +33,9 @@ export default function Footer() {
     </tbody>
     <tfoot>
       <tr>
-        <td>Footer 1</td>
-        <td>Footer 2</td>
-        <td>Footer 3</td>
+        <td id="head-center">abasare@gmail.com</td>
+        <td id="head-center2">+250788888888</td>
+        <td id="head-center3">copyright@2023</td>
       </tr>
     </tfoot>
   </table>

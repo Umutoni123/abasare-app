@@ -1,27 +1,28 @@
 import './App.css';
-import Navigation from './Navigation';
-import Signupform from './component/Login/Loginform';
+import Navigation from './component/Navigation/Navigation'
 import Signup from './component/Signup/Signup';
 import { Routes,Route} from 'react-router-dom';
-import Body from './component/body/Body';
-import Speciality from './component/specialty/Speciality';
-import Team from './component/Team/Team';
-import Footer from './component/Footer/Footer';
+import Home from './component/Home/Home';
+import Digital from './component/Digital';
+import Conform from './component/Conform';
+import Footer from './component/Footer/Footer'
+
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
       <Routes>
-        <Route path='ride'/>
+        {/* <Route path='ride'/> */}
+        <Route path='/' element={<Home />}/>
         <Route path='/signup' element={<Signup />}/>
-        <Route path='/comform' element={<Comform />}/>
-        <Route path='/digitals' element={<Digitals />}/>
+        <Route path='/comform' element={<Conform />}/>
+        <Route path='/digitals' element={<Digital />}/>
       </Routes>
-      <Body/>
-      <Speciality/>
-      <Team/>
-      <Footer/>
+      <Footer /> 
+
+      
+      
     </div>
   );
 }

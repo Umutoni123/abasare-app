@@ -11,17 +11,35 @@ img{
   margin: auto;
 }
 h2{
+  padding: 16px;
   text-align: center;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18.6649px;
+line-height: 28px;
 }
-h5 {
+h4 {
   text-align: right;
+  padding: 10px;
+  font-weight: 600;
+  font-style: 16px;
 }
 .test-p {
-  background-color: #edf4ef;
-  
+  padding: 1rem;
   font-style: normal;
   font-weight: 400;
   font-size: 21.7991px;
-  line-height: 33px;
+  line-height: 50px;
   border-radius: 18.1659px;
+}
+.cards{
+  background: #F5F5F5;
+box-shadow: 3.42489px 3.42489px 3.42489px rgba(0, 0, 0, 0.25);
+border-radius: 25.6867px;
+padding: 2rem;
+}
+hr{
+  border: 0.5px solid black;
+  
 }

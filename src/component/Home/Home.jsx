@@ -1,16 +1,16 @@
 import React from "react";
-import Body from "../body/Body";
+import Body1 from "../Body1/Body1";
 import Speciality from "../specialty/Speciality";
 import Team from "../Team/Team";
-import Footer from "../Footer/Footer";
+
 
 export default function Home() {
   return (
     <div>
-      <Body />
+      <Body1/>
       <Speciality />
       <Team />
-      <Footer /> */
+      
     </div>
   );
 }

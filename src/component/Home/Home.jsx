@@ -1,14 +1,16 @@
 import React from "react";
-import Body1 from "../Body1/Body1";
+import Body from "../body/Body";
 import Speciality from "../specialty/Speciality";
 import Team from "../Team/Team";
+import Testiomony from "../Testimonies/Testiomony";
 
 
 export default function Home() {
   return (
     <div>
-      <Body1/>
+      <Body/>
       <Speciality />
+      <Testiomony/>
       <Team />
       
     </div>

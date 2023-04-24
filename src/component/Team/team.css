@@ -26,12 +26,20 @@ h4 {
   font-style: 16px;
 }
 .test-p {
-  padding: 1rem;
+  /* padding: 1rem;
   font-style: normal;
   font-weight: 400;
   font-size: 21.7991px;
   line-height: 50px;
-  border-radius: 18.1659px;
+  border-radius: 18.1659px; */
+    margin-top: 25px;
+    font-family: Circular-Std-Book;
+    font-size: clamp(.85rem,1.181vw,1.063rem);
+    font-size: var(--font-subsection);
+    line-height: 150%;
+    text-align: center;
+
+
 }
 .cards{
   background: #F5F5F5;

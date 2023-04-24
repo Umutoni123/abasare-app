@@ -1,0 +1,18 @@
+/* #card-img{
+    height: 25%;
+    width:25%;
+    border-radius: 100%;
+} */
+.test-card{
+    display: flex; 
+    width: 30%;
+    margin: auto;
+}
+p .test-card{
+    text-align: center;
+    width: 40%;
+    
+
+}
+
+

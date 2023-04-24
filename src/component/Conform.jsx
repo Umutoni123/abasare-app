@@ -5,14 +5,10 @@ export default function Conform() {
     const Navigate = useNavigate();
   return (
     
-   <div className="relative flex flex-col justify-center  "> 
-   
-       
-   <form className="mt-6">
-       
+   <div className="relative flex flex-col justify-center ">   
+   <form className="mt-5">       
        <div className="mb-2" class="input">
-           <h1 className='  text-black text-2xl'> Comform your request by  entering <br/>your email</h1>
-           
+           <h1 className='  text-black text-2xl'> Comform your request by  entering <br/>your email</h1>           
            <input
                type="email" placeholder='Email'
                className="block w-[600px] ml-[500px]  rounded-3xl px-4 py-6 mt-2   text-black  bg-gray-100 border  focus:border-black-400 focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"

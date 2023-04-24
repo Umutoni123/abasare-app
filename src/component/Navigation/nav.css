@@ -10,10 +10,10 @@
 }
 .logo{
     color: white;
-    margin: auto;
+    padding-left: 3rem;
     font-weight: 700;
-font-size: 50px;
-line-height: 75px;
+    font-size: 16px;
+    line-height: 75px;
     font-style: normal;
     font-weight: 700;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -21,22 +21,26 @@ line-height: 75px;
 .Nav-links{
     color: white;
     display: flex;
-    margin: auto;
+    padding-right: 3rem;
     gap: 1rem;
     
 }
 #select-nav{
-    background: #464545;
-border-radius: 40px;
-padding: 10px;
+background: #464545;
+border-radius: 30px;
+height: 30px;
 font-weight: 700;
-font-size: 24px;
-line-height: 45px;
+font-size: 16px;
+margin: auto;
+font-family: "UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif";
+
 }
 #select-links{
-    padding: 10px;
-    font-style: normal;
+    margin: auto;
+
+font-style: normal;
 font-weight: 700;
-font-size: 24px;
-line-height: 45px;
+font-size: 16px;
+font-family: "UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif";
+
 }

@@ -1,5 +1,5 @@
 .b-container{
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 .bo{
     display: flex;
@@ -7,9 +7,13 @@
 h1{
     font-style: normal;
 font-weight: 700;
-font-size: 80px;
+font-size: clamp(1.5em,2.569vw,2.313em);
 line-height: 97px;
 text-align: center;
+}
+#b-img{
+    width: 50vw;
+    height: 30vw;
 }
 .bo-right{
     margin: auto;
@@ -19,34 +23,22 @@ text-align: center;
 }
 #b-but{
     border: 2.28776px solid #000000;
-border-radius: 25.9927px;
-align-items: center;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 4rem;
-padding-right: 4rem;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 33px;
-font-family: 'Inter';
+border-radius: 25px;
+padding-left: 30px;
+
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
 
 }
 #b-but1{
     background: #000;
     color: white;
-    border: 2.28776px solid #000000;
-border-radius: 25.9927px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 33px;
-align-items: center;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 4rem;
-padding-right: 4rem;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 .bo-button{

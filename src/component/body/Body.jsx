@@ -17,7 +17,7 @@ export default function Body() {
         const longitude = position.coords.longitude;
 
         // Use a reverse geocoding service to get the location name
-        fetch(`https://ipinfo.io/json?token=37dc1ce6f3b3e2`)
+        fetch(`https://www.google.com/maps/dir/`)
           .then((response) => response.json())
           .then((data) => {
             setLocation(data.city);

@@ -5,13 +5,14 @@ import { Routes,Route} from 'react-router-dom';
 import Home from './component/Home/Home';
 import Digital from './component/Digital';
 import Conform from './component/Conform';
+import Location from './component/Location';
 import Footer from './component/Footer/Footer'
 import Speciality from './component/specialty/Speciality';
 
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <Navigation/>
       <Routes>
         {/* <Route path='ride'/> */}

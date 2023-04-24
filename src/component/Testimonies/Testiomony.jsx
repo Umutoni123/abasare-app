@@ -2,6 +2,7 @@ import ImageSlider, { Slide } from "react-auto-image-slider";
 import test1 from '../../img//test3.jpg'
 import '../Testimonies/testimonies.css'
 export default function Testiomony() {
+
   return (
     <div>
         <h1>What Our Clients Say’s</h1>

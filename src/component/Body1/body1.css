@@ -1,0 +1,55 @@
+.b-container{
+    padding-top: 5rem;
+}
+.bo{
+    display: flex;
+}
+h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 97px;
+text-align: center;
+}
+.bo-right{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+#b-but{
+    border: 2.28776px solid #000000;
+border-radius: 25.9927px;
+align-items: center;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 4rem;
+padding-right: 4rem;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+font-family: 'Inter';
+
+}
+#b-but1{
+    background: #000;
+    color: white;
+    border: 2.28776px solid #000000;
+border-radius: 25.9927px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+align-items: center;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 4rem;
+padding-right: 4rem;
+
+}
+.bo-button{
+    display: flex;
+    gap: 3rem;
+}

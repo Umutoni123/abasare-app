@@ -1,0 +1,44 @@
+.spec-cont{
+    
+    padding-top: 5rem;
+}
+
+#spec-h1{
+    text-align: left;
+    padding-left: 5rem;
+    font-size: 24px;
+}
+#spec-span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 72px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.spec-cards{
+    background: rgba(217, 217, 217, 0.4);
+    display: flex;
+    gap: 13rem;
+    padding-left: 15rem;
+}
+ .spec-cards img{
+    width: 400px;
+    border-radius: 20px;
+}
+.spec-img{
+   padding-top: 3rem;
+}
+.spec-text{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 400px;
+}
+.spec-text h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 90px;
+}

@@ -1,0 +1,42 @@
+.nav{
+    background-color: #1E1E1E;
+    padding: 0.5rem;
+}
+.nav-container{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    color: white;
+    margin: auto;
+    font-weight: 700;
+font-size: 50px;
+line-height: 75px;
+    font-style: normal;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Nav-links{
+    color: white;
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+    
+}
+#select-nav{
+    background: #464545;
+border-radius: 40px;
+padding: 10px;
+font-weight: 700;
+font-size: 24px;
+line-height: 45px;
+}
+#select-links{
+    padding: 10px;
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 45px;
+}

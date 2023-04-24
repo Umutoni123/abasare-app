@@ -4,7 +4,7 @@ export default function Login() {
 const Navigate=useNavigate();
     return (
         <div class="div1"className="relative  flex flex-col justify-center min-h-screen  overflow-hidden"> 
-            <div  className="w-[782px] p-14 m-auto  bg-gray-200  rounded-xl shadow-xl text text-black lg:max-w-xl">
+            <div  className="w-[782px] p-14 pb-2 m-auto  bg-gray-200  rounded-xl shadow-xl text text-black lg:max-w-xl">
                 <h1 className="text-3xl font-semibold text-center  text-black underline uppercase 
                 ">
                    Sign up
@@ -59,6 +59,7 @@ const Navigate=useNavigate();
                 <p className="mt-8 text-xs font-light text-center text-black">
                     {" "}
                      Have an account?{" "}
+                     
                     <a
                         href="#"
                         className="font-medium   text-green-500 hover:underline"

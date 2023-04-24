@@ -6,6 +6,7 @@ import Home from './component/Home/Home';
 import Digital from './component/Digital';
 import Conform from './component/Conform';
 import Footer from './component/Footer/Footer'
+import Speciality from './component/specialty/Speciality';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Route path='/signup' element={<Signup />}/>
         <Route path='/comform' element={<Conform />}/>
         <Route path='/digitals' element={<Digital />}/>
+        <Route path='/speciality' element={<Speciality />}/>
+
       </Routes>
       <Footer /> 
 

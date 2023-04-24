@@ -13,7 +13,7 @@ export default function Navigation() {
       <div className='Nav-links'>
         <select name="" id="select-nav">
           <option value="" selected>Company</option>
-          <option value="">About US</option>
+          <option value=""><Link to='speciality'>About US</Link></option>
           <option value="">Testimonies</option>
           <option value="">Team</option>
         </select>

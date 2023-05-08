@@ -9,10 +9,9 @@ export default function Home() {
   return (
     <div>
       <Body/>
-      <Speciality />
+    <Speciality />
       <Testiomony/>
-      <Team />
-      
+      {/* <Team /> */}
     </div>
   );
 }

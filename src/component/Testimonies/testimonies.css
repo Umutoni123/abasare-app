@@ -1,18 +1,30 @@
-/* #card-img{
-    height: 25%;
-    width:25%;
-    border-radius: 100%;
-} */
+.test{
+    background-color: #F0F0F0;
+}
+#card-img{
+    width:20%;
+    border-radius: 9999px;
+    
+}
 .test-card{
     display: flex; 
-    width: 30%;
+    width: 50%;
     margin: auto;
+    gap: 3rem;
+    padding-top: 4rem;
 }
-p .test-card{
-    text-align: center;
-    width: 40%;
+#p-test{
     
-
+    line-height:2;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+  
+}
+#header1{
+   margin-left: 31rem;
+    font-style: 16px;
+    padding-top: 4rem;
 }
 
 

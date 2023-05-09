@@ -9,9 +9,9 @@ export default function Contact() {
 
   {/* <!-- Section: Design Block --> */}
   <section class="mb-32 text-center text-gray-800">
-    <div class="max-w-[700px] mx-auto px-3 lg:px-6">
+    <div class="border rounded shadow-lg bg-[#ECECEC] max-w-[700px] mx-auto px-3 lg:px-6">
       <h2 class="text-3xl font-bold mb-12">Contact us</h2>
-      <form className='border p-12 rounded-2xl'>
+      <form className='p-12 rounded-2xl'>
         <div class="form-group mb-6">
           <input type="text" class="form-control block
             w-full
@@ -20,13 +20,13 @@ export default function Contact() {
             text-base
             font-normal
             text-gray-700
-            bg-white bg-clip-padding
+            bg-transparent
             border-b border-solid border-black
             rounded
             transition
             ease-in-out
             m-0
-            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
+            focus:text-gray-700 focus:bg-transparent focus:border-black focus:outline-none" id="exampleInput7"
             placeholder="Name" />
         </div>
         <div class="form-group mb-6">
@@ -37,13 +37,13 @@ export default function Contact() {
             text-base
             font-normal
             text-gray-700
-            bg-white bg-clip-padding
+            bg-transparent
             border-b border-solid border-black
             rounded
             transition
             ease-in-out
             m-0
-            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
+            focus:text-gray-700 focus:bg-transparent focus:border-black focus:outline-none" id="exampleInput8"
             placeholder="Email address" />
         </div>
         <div class="form-group mb-6">
@@ -56,13 +56,13 @@ export default function Contact() {
             text-base
             font-normal
             text-gray-700
-            bg-white bg-clip-padding
+            bg-transparent bg-clip-padding
             border-b border-solid border-black
             rounded
             transition
             ease-in-out
             m-0
-            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+            focus:text-gray-700 focus:bg-transparent focus:border-black focus:outline-none
           " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
         </div>
         
@@ -73,7 +73,7 @@ export default function Contact() {
           bg-black
           text-white
           font-medium
-          text-xs
+          text-xm
           leading-tight
           uppercase
           rounded
@@ -83,7 +83,8 @@ export default function Contact() {
           active:bg-[#F0F0F0] active:shadow-lg
           transition
           duration-150
-          ease-in-out">Send</button>
+          ease-in-out
+          shadow-xl">Send</button>
       </form>
     </div>
   </section>

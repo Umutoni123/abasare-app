@@ -11,7 +11,7 @@ export default function Contact() {
   <section class="mb-32 text-center text-gray-800">
     <div class="max-w-[700px] mx-auto px-3 lg:px-6">
       <h2 class="text-3xl font-bold mb-12">Contact us</h2>
-      <form>
+      <form className='border p-12 rounded-2xl'>
         <div class="form-group mb-6">
           <input type="text" class="form-control block
             w-full
@@ -21,7 +21,7 @@ export default function Contact() {
             font-normal
             text-gray-700
             bg-white bg-clip-padding
-            border border-solid border-gray-300
+            border-b border-solid border-black
             rounded
             transition
             ease-in-out
@@ -38,7 +38,7 @@ export default function Contact() {
             font-normal
             text-gray-700
             bg-white bg-clip-padding
-            border border-solid border-gray-300
+            border-b border-solid border-black
             rounded
             transition
             ease-in-out
@@ -57,7 +57,7 @@ export default function Contact() {
             font-normal
             text-gray-700
             bg-white bg-clip-padding
-            border border-solid border-gray-300
+            border-b border-solid border-black
             rounded
             transition
             ease-in-out
@@ -78,9 +78,9 @@ export default function Contact() {
           uppercase
           rounded
           shadow-md
-          hover:bg-grey-700 hover:shadow-lg
-          focus:bg-grey-700 focus:shadow-lg focus:outline-none focus:ring-0
-          active:bg-grey-800 active:shadow-lg
+          hover:bg-[#F0F0F0] hover:shadow-lg
+          focus:bg-[#F0F0F0] focus:shadow-lg focus:outline-none focus:ring-0
+          active:bg-[#F0F0F0] active:shadow-lg
           transition
           duration-150
           ease-in-out">Send</button>

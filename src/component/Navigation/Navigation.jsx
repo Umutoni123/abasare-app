@@ -8,9 +8,9 @@ export default function Navigation() {
     <div className='nav'>
     <div className='nav-container'>
 
-      {/* <div className='logo'>
-        <img src={logo} alt=""  id="logo-img"/>
-      </div> */}
+      <div className='logo'>
+        <h1 className='text-white'>Abasare</h1>
+      </div>
       <div className='Nav-links'>
         <select name="" id="select-nav">
           <option value="" selected>Company</option>

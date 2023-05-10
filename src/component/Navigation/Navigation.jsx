@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Navigation/nav.css'
 import { Link } from 'react-router-dom'
+import logo from './../../img/Abasare.png'
 
 export default function Navigation() {
   return (
@@ -8,7 +9,7 @@ export default function Navigation() {
     <div className='nav-container'>
 
       <div className='logo'>
-        <p>Abasare</p>
+        <h1 className='text-white'>Abasare</h1>
       </div>
       <div className='Nav-links'>
         <select name="" id="select-nav">

@@ -11,9 +11,9 @@ export default function Home() {
     <div>
       <Body/>
     <Speciality />
-      <Testiomony/>
       <Team />
       <Contact/>
+      <Testiomony/>
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
+
 import "../body/body.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import ride from "../../img/Vector.png";
 import deliver from "../../img/Group.png";
 import woman from "../../img/Woman Talking Taxi Driver.svg";
@@ -53,7 +54,9 @@ export default function Body() {
                   <li>
                     <img src={ride} alt="" />
                   </li>
+                  <button onClick={()=>Navigate('/Signupd')} className="  ">
                   Ride
+                  </button>
                 </Link>
               </li>
             </ul>
@@ -73,7 +76,7 @@ export default function Body() {
           {showLoginForm && (
             <div className="ride-form">
               <div>
-                <h1>Request a ride</h1>
+                <h1 className="  ">Request a ride</h1>
               </div>
               <form className="ride-form">
                 <input
@@ -91,7 +94,7 @@ export default function Body() {
                   placeholder="Destination"
                 />
                 <Link to="signup">
-                  <button type="submit" id="ride-btn">
+                  <button  type="submit" id="ride-btn">
                     Request a ride
                   </button>
                 </Link>

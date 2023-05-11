@@ -8,6 +8,14 @@ import Conform from './component/Conform';
 import Location from './component/Location';
 import Footer from './component/Footer/Footer'
 import Speciality from './component/specialty/Speciality';
+import Verify from './component/verify';
+import Upload1 from './component/upload1';
+import Upload2 from './component/upload2';
+import Upload3 from './component/upload3';
+import Driverdashbord from './component/driverdashbord';
+import Loginform from './component//Login/Loginform';
+import Logind from  './component/Logind';
+
 
 
 
@@ -22,6 +30,15 @@ function App() {
         <Route path='/comform' element={<Conform />}/>
         <Route path='/digitals' element={<Digital />}/>
         <Route path='/speciality' element={<Speciality />}/>
+        <Route path='/Verify' element={<Verify/>}/>
+        <Route path='/Upload1' element={<Upload1/>}/>
+        <Route path='/Upload2' element={<Upload2/>}/>
+        <Route path='/Upload3' element={<Upload3/>}/>
+        <Route path='/Driverdashbord' element={<Driverdashbord/>}/>
+        <Route path='/Logind' element={<Logind/>}/>
+        <Route path='/Loginform' element={<Loginform/>}/>
+        <Route path='/Loginform' element={<Loginform/>}/>
+        <Route path='/Navigation' element={<Navigation/>}/>
 
       </Routes>
       <Footer /> 

@@ -8,9 +8,9 @@ export default function Contact() {
 <div class="container my-24 px-6 mx-auto">
 
   {/* <!-- Section: Design Block --> */}
-  <section class="mb-32 text-center text-gray-800">
+  <section class="text-center text-gray-800">
     <div class="border rounded shadow-lg bg-[#ECECEC] max-w-[700px] mx-auto px-3 lg:px-6">
-      <h2 class="text-3xl font-bold mb-12">Contact us</h2>
+      <h2 class="text-3xl font-bold text-[#111827] mb-12 mt-6">Contact us</h2>
       <form className='p-12 rounded-2xl'>
         <div class="form-group mb-6">
           <input type="text" class="form-control block
@@ -70,7 +70,7 @@ export default function Contact() {
           w-full
           px-6
           py-4
-          bg-black
+          bg-[#111827]
           text-white
           font-medium
           text-xm

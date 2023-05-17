@@ -23,6 +23,7 @@ function App() {
   return (
     <div classNameName="App">
       <Navigation/>
+     
       <Routes>
         {/* <Route path='ride'/> */}
         <Route path='/' element={<Home />}/>
@@ -34,7 +35,7 @@ function App() {
         <Route path='/Upload1' element={<Upload1/>}/>
         <Route path='/Upload2' element={<Upload2/>}/>
         <Route path='/Upload3' element={<Upload3/>}/>
-        <Route path='/Driverdashbord' element={<Driverdashbord/>}/>
+        <Route path='/Driverdashbord' element={<Driverdashbord/>}/> 
         <Route path='/Logind' element={<Logind/>}/>
         <Route path='/Loginform' element={<Loginform/>}/>
         <Route path='/Loginform' element={<Loginform/>}/>

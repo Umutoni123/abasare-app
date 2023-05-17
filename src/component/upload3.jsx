@@ -16,7 +16,7 @@ const Upload1 = () => {
        
        </button>
     
-    <button onClick={()=>Navigate('/Verify')} className=' absolute bg-black text-white   mt-[500px]  -ml-80  rounded-3xl  p-4 w-[250px] '> Upload</button>
+    <button onClick={()=>Navigate('/Verify')} className=' absolute bg-[#111827] text-white   mt-[500px]  -ml-80  rounded-3xl  p-4 w-[250px] '> Upload</button>
     </div>
        
     </div>

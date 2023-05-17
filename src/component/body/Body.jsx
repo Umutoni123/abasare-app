@@ -44,9 +44,9 @@ export default function Body() {
   };
 
   return (
-    <div>
-      <div className="bg">
-        <div className="body">
+    
+      <div className="bg flex justify-evenly pt-4 pb-20 md:flex md:flex-cols">
+        <div className="body ">
           <nav className="Ride-drive">
             <ul>
               <li>
@@ -119,6 +119,6 @@ export default function Body() {
           <img src={woman} alt="" srcset="" />
         </div>
       </div>
-    </div>
+    
   );
 }

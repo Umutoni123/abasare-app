@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const Verify = () => {
   const Navigate = useNavigate()
   return (
-    <div className=' h-screen  '>
+    <div className='p-20 justify-center'>
     <div className=' ml-[00px]  ml-[400px]  '>
      <div className='text-[40px] '>welcame,cloude</div>
      <div className='text-[23px] '>Required Documents</div>

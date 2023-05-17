@@ -21,7 +21,7 @@ import Logind from  './component/Logind';
 
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       <Navigation/>
       <Routes>
         {/* <Route path='ride'/> */}

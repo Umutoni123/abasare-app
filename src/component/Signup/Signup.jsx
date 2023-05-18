@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   const [posts, setPosts] = useState([]);
-  const [newPostData, setNewPostData] = useState({ first_name: "", content: "" });
+  const [newPostData, setNewPostData] = useState({ first_name: "", last_name: "", email: "", password: "", password_confirmation: "" });
 
   useEffect(() => {
     axios
@@ -34,7 +36,7 @@ export default function Login() {
         console.error(error);
       });
   }
-
+ const Navigate= useNavigate();
   return (
     <div className=" flex">
       <div className="   w-[1000px]   h-40  pl-14 mt-80  ">
@@ -128,10 +130,12 @@ export default function Login() {
           </div>
 
           <div className="mt-6 ml-40">
-            <button
-              type="submit"
+            <button  onClick={()=>Navigate('/Verify')}
+              type="submit" 
+              
               className="w-[150px] rounded-xl px-4 py-2 tracking  bg-black text-btransition-colors duration-200 transform  bg-black  text-white rounded-md hover: focus:outline-none focus:bg-green-600"
             >
+              
               sign up
             </button>
           </div>
@@ -140,11 +144,13 @@ export default function Login() {
         <p className="mt-8 text-xs  ml-40 font-light text-center text-black">
           {" "}
           Have an account?{" "}
-          <button
-            className="font-medium   text-green-500 hover:underline"
+          
+          <button onClick={()=>Navigate('/Logind')}
+            className="font-medium   text-[#111827] hover:underline" 
           >
             Login
           </button>
+          
         </p>
       </div>
     </div>

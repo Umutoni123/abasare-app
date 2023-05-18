@@ -5,7 +5,7 @@ export default function Conform() {
     const Navigate = useNavigate();
   return (
     
-   <div className="relative  h-screen flex justify-center   "> 
+   <div className="relative  flex justify-center   "> 
    
        
    <form className="">

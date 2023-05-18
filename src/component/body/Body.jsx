@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 import "../body/body.css";
 import { Link, Navigate } from "react-router-dom";
 import ride from "../../img/Vector.png";
 import deliver from "../../img/Group.png";
-import woman from "../../img/Woman Talking Taxi Driver.svg";
-import { async } from "q";
+import woman from "../../img/body.jpg";
+
 export default function Body() {
   const [showLoginForm, setShowLoginForm] = useState(true);
   const [showSignupForm, setShowSignupForm] = useState(false);
@@ -42,11 +42,12 @@ export default function Body() {
     setShowLoginForm(false);
     setShowSignupForm(true);
   };
-
+  
+  const Navigate = useNavigate();
   return (
-    
-      <div className="bg flex justify-evenly pt-4 pb-20 md:flex md:flex-cols">
-        <div className="body ">
+    <div>
+      <div className="bg">
+        <div className="body">
           <nav className="Ride-drive">
             <ul>
               <li>
@@ -54,7 +55,7 @@ export default function Body() {
                   <li>
                     <img src={ride} alt="" />
                   </li>
-                  <button onClick={()=>Navigate('/Signupd')} className="  ">
+                  <button onClick={()=>Navigate('/Signup')} className="  ">
                   Ride
                   </button>
                 </Link>
@@ -108,17 +109,17 @@ export default function Body() {
               </div>
               <p>Connect with riders easely</p>
               <form>
-                <button type="submit" id="ride-btn">
+                <button onClick={()=>Navigate('/signupd')} type="submit" id="ride-btn">
                   Sign up
                 </button>
               </form>
             </div>
           )}
         </div>
-        <div>
+        {/* <div>
           <img src={woman} alt="" srcset="" />
-        </div>
+        </div> */}
       </div>
-    
+    </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import {Navigate } from "react-router-dom";
 
  
 export default function Login() {
@@ -117,6 +118,7 @@ setTimeout(handleform,300);
                 <p className="mt-8 text-xs  ml-40 font-light text-center text-black">
                     {" "}
                      Have an account?{" "}
+                     
                      
                     <button onClick={()=>Navigate('/Logind' )}  className="font-medium   text-green-500 hover:underline" >
                          Login

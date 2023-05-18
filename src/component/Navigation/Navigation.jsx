@@ -12,7 +12,8 @@ export default function Navigation() {
         <h1 className='text-white'>Abasare</h1>
         
       </div>
-      <div className='Nav-links'>
+      <div className='Nav-links' >
+        <Link to="/" id='select-links'>Home</Link>
         <select name="" id="select-nav">
           <option value="" selected>Company</option>
           <option value=""><Link to='speciality'>About US</Link></option>

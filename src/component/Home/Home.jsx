@@ -16,7 +16,7 @@ export default function Home() {
       <Contact/>
       {/* <LocationForm/> */}
 
-      <Testiomony/>
+      {/* <Testiomony/> */}
     </div>
   );
 }

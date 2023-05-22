@@ -1,6 +1,7 @@
 import './App.css';
 import Navigation from './component/Navigation/Navigation'
 import Signup from './component/Signup/Signup';
+import Signupd from '../src/component/signupd'
 import { Routes,Route} from 'react-router-dom';
 import Home from './component/Home/Home';
 import Digital from './component/Digital';
@@ -19,6 +20,7 @@ import Logind from  './component/Logind';
 
 
 
+
 function App() {
   return (
     <div classNameName="App">
@@ -28,6 +30,7 @@ function App() {
         {/* <Route path='ride'/> */}
         <Route path='/' element={<Home />}/>
         <Route path='/signup' element={<Signup />}/>
+        <Route path='/signupd' element={<Signupd />}/>
         <Route path='/comform' element={<Conform />}/>
         <Route path='/digitals' element={<Digital />}/>
         <Route path='/speciality' element={<Speciality />}/>

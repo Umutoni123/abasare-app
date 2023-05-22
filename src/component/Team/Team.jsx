@@ -1,4 +1,7 @@
 import React from 'react'
+import test1 from '../../img/test1.jpg'
+import test2 from '../../img/test3.jpg'
+import test3 from '../../img/test4.jpg'
 
 export default function Team() {
   return (
@@ -10,7 +13,7 @@ export default function Team() {
       </div> 
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={test1} alt="Bonnie Avatar" />
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Bonnie Green</a>
               </h3>
@@ -35,7 +38,7 @@ export default function Team() {
               </ul>
           </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={test2} alt="Bonnie Avatar" />
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Bonnie Green</a>
               </h3>
@@ -60,7 +63,7 @@ export default function Team() {
               </ul>
           </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={test3} alt="Bonnie Avatar" />
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Bonnie Green</a>
               </h3>

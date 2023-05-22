@@ -27,7 +27,7 @@ const Verify = () => {
      <div className=' h-[1px] bg-gray-300  mr-[800px] '></div>
      </div>
 
-     <button  onClick={()=>Navigate('/Driverdashbord')} className=' bg-black text-white  ml-[450px] mt-10 rounded-3xl  p-4 w-[250px] '> Submit</button>
+     <button  onClick={()=>Navigate('/')} className=' bg-black text-white  ml-[450px] mt-10 rounded-3xl  p-4 w-[250px] '> Submit</button>
 
     </div>
   )

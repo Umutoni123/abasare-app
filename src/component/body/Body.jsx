@@ -46,7 +46,7 @@ export default function Body() {
   const Navigate = useNavigate();
   return (
     <div>
-      <div className="bg">
+      <div className="bg pb-20">
         <div className="body">
           <nav className="Ride-drive">
             <ul>
@@ -95,7 +95,7 @@ export default function Body() {
                   placeholder="Destination"
                 />
                 <Link to="signup">
-                  <button  type="submit" id="ride-btn">
+                  <button  type="submit" id="ride-btn" className="text-2xl">
                     Request a ride
                   </button>
                 </Link>
@@ -116,9 +116,9 @@ export default function Body() {
             </div>
           )}
         </div>
-        {/* <div>
-          <img src={woman} alt="" srcset="" />
-        </div> */}
+        <div >
+          <img src={woman} alt="" srcset=""  className="pl-20 pr-20 rounded-xl" />
+        </div>
       </div>
     </div>
   );

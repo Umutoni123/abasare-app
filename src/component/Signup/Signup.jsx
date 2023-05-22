@@ -130,10 +130,10 @@ export default function Login() {
           </div>
 
           <div className="mt-6 ml-40">
-            <button  onClick={()=>Navigate('/Verify')}
+            <button  onClick={()=>Navigate('/comform')}
               type="submit" 
               
-              className="w-[150px] rounded-xl px-4 py-2 tracking  bg-black text-btransition-colors duration-200 transform  bg-black  text-white rounded-md hover: focus:outline-none focus:bg-green-600"
+              className="w-[150px] rounded-xl px-4 py-2 tracking  bg-black text-btransition-colors duration-200 transform  bg-black  text-white rounded-md hover: focus:outline-none "
             >
               
               sign up

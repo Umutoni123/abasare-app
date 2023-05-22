@@ -1,6 +1,6 @@
 .nav{
     background-color: #111827;
-    padding: 0.5rem;
+    
 }
 .nav-container{
     
@@ -26,20 +26,16 @@
     
 }
 #select-nav{
-background: #464545;
+
 border-radius: 30px;
 height: 30px;
-font-weight: 700;
-font-size: 16px;
+
 margin: auto;
-font-family: "UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif";
+
 
 }
 #select-links{
     margin: auto;
 
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-font-family: "UberMoveText, system-ui, Helvetica Neue, Helvetica, Arial, sans-serif"
+
 }
